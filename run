@@ -1,0 +1,6 @@
+#!/bin/bash
+
+ghc -o Haskeroids Main.hs
+rm *.hi
+rm *.o
+./Haskeroids
